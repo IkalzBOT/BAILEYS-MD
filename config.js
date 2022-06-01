@@ -17,7 +17,7 @@ global.APIKeys = {
 }
 
 //━━━━━━━━━━━━━━━[ OTHER ]━━━━━━━━━━━━━━━━━//
-global.owner = ['6282325673016','6285742977895','6285813670476']
+global.owner = ['6282325673016','6285784918313','6285813670476']
 global.premium = ['6282325673016']
 global.packname = 'Delta'
 global.author = 'WhatsApp Bot'
