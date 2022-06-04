@@ -93,7 +93,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
        const wita = moment.tz('Asia/Makassar').format('HH : mm : ss')
        const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
-const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `D H A N I O F C`, orderTitle: 'Please Subscribe Youtube DhaniOfc', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true} 
+const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `Ikalzo`, orderTitle: 'Please Subscribe Youtube GamerzSitubondo', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true} 
 const floc = {key : {participant : '0@s.whatsapp.net'},message: {locationMessage: {name: `I’m From Indonesia 🇮🇩`,jpegThumbnail: thumb}}}
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 	try {
@@ -1271,8 +1271,8 @@ url: 'https://github.com/DikaArdnt/Hisoka-Morou'
 }
 }, {
 callButton: {
-displayText: 'Number Phone Owner',
-phoneNumber: '+62 882-9202-4190'
+displayText: 'Nomer Owner',
+phoneNumber: '+62 857-7192-3798'
 }
 }, {
 quickReplyButton: {
@@ -1310,8 +1310,8 @@ url: 'https://github.com/DikaArdnt/Hisoka-Morou'
 }
 }, {
 callButton: {
-displayText: 'Number Phone Owner',
-phoneNumber: '+62 882-9202-4190'
+displayText: 'Nomer Owner',
+phoneNumber: '+62 857-7192-3798'
 }
 }, {
 quickReplyButton: {
@@ -1432,12 +1432,12 @@ hydratedContentText: pp,
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Wa',
-url: 'https://chat.whatsapp.com/F9MPedE7AzPIl8ZWuDw3nF'
+url: 'https://chat.whatsapp.com/CjY36j61CdP8VJzhFfqEO5'
 }
 }, {
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/c/DhaniOfc/'
+url: 'https://youtube.com/channel/UCfkaZeCkZDmEY_JHDAA2l_Q'
 }
 }, {
 quickReplyButton: {
@@ -1451,7 +1451,7 @@ id: 'owner'
 }  
 }, {
 quickReplyButton: {
-displayText: '𝑺𝒄𝒓𝒊𝒑𝒕',
+displayText: 'Script',
 id: 'sc'
 }
 }]
@@ -3622,8 +3622,8 @@ case 'Assalamualaikum': {
 m.reply('walaikumsallam')
 }
 break
-case 'Dhani': {
-m.reply('hayo Ngomongin DhaniOfc ya gw bilangin ah')
+case 'Haikal': {
+m.reply('hayo Ngomongin Haikal ya gw bilangin ah')
 }
 break
 //══════════[ SET CMD ]══════════//
@@ -3725,15 +3725,15 @@ m.reply('Sukses Change To Self Usage')
 break
 case 'list': case 'menu': case 'help': case '?': {
 txt = `
-『INFO USER』
+『Info User』
 
-➥\`\`\`\Name : ${pushname}\`\`\`\n➥\`\`\`\Number : ${m.sender.split("@")[0]}\`\`\`\n➥\`\`\`\Rank User : ${role}\`\`\`\n
+➥\`\`\`\Nama : ${pushname}\`\`\`\n➥\`\`\`\Nomer : ${m.sender.split("@")[0]}\`\`\`\n➥\`\`\`\Rank User : ${role}\`\`\`\n
 
-『INFO BOT』
+『Info Bot』
                  
 ➥\`\`\`\Mode : ${hisoka.public ? 'Public' : 'Self'}\`\`\`\n➥\`\`\`\Owner : ${isCreator}\`\`\`\n➥\`\`\`\Runtime : ${runtime(process.uptime())}\`\`\`\n➥\`\`\`\Library : *Baileys-MD*\`\`\`\n➥\`\`\`\Prefix : ( ${prefix} )\`\`\`\n
 
-『WAKTU INDONESIA』
+『Waktu Indonesia』
 
 ➥\`\`\`\Waktu: ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\`\`\`\n➥\`\`\`\Tanggal: ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\`\`\`\n➥\`\`\`\Wib : ${wib}\`\`\`\n➥\`\`\`\Wit : ${wit}\`\`\`\n➥\`\`\`\Wita : ${wita}\`\`\`\n
 `
@@ -3745,17 +3745,17 @@ imageMessage: message.imageMessage,
 hydratedContentText: txt,
 hydratedButtons: [{
 urlButton: {
-displayText: 'Forum Group Whatsapp',
+displayText: 'Group Whatsapp',
 url: 'https://chat.whatsapp.com/F9MPedE7AzPIl8ZWuDw3nF'
 }
 }, {
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/channel/UCkq29eVGgDbHPGyhEmSJs2A'
+url: 'https://youtube.com/channel/UCfkaZeCkZDmEY_JHDAA2l_Q'
 }
 }, {
 quickReplyButton: {
-displayText: 'Contact Owner',
+displayText: 'Nomer Owner',
 id: 'owner'
 }
 }, {
@@ -3765,7 +3765,7 @@ id: 'sc'
 }  
 }, {
 quickReplyButton: {
-displayText: 'WhatsApp Bot Features',
+displayText: 'Fitur Ikalzo-BOTZ',
 id: 'allmenu'
 }
 }]
@@ -3778,8 +3778,8 @@ break
 case 'allmenu': case 'features': {
 txt =`┌──⭓ *Information*
 │
-│➥⭔ • Name : ${pushname}
-│➥⭔• Owner : ${isCreator}
+│➥⭔ • Nama : ${pushname}
+│➥⭔ • Owner : ${isCreator}
 │➥⭔ • Mode : ${hisoka.public ? 'Public' : 'Self'}
 │➥⭔ • Runtime : ${runtime(process.uptime())}
 │➥⭔ • Library : *Baileys-MD*
@@ -3862,23 +3862,6 @@ txt =`┌──⭓ *Information*
 │➥⭔ ${prefix}shopee [query]
 │➥⭔ ${prefix}amazon [query]
 │➥⭔ ${prefix}ssweb [link]
-│
-└───────⭓
-
-┌──⭓ *Random Image*
-│
-│➥⭔ ${prefix}stanic
-│➥⭔ ${prefix}katakata
-│➥⭔ ${prefix}pentol
-│➥⭔ ${prefix}kartun
-│➥⭔ ${prefix}cyberspace
-│➥⭔ ${prefix}islami
-│➥⭔ ${prefix}programing
-│➥⭔ ${prefix}teknologi
-│➥⭔ ${prefix}mountain
-│➥⭔ ${prefix}gaming
-│➥⭔ ${prefix}couple
-│➥⭔ ${prefix}bokep
 │
 └───────⭓
 
@@ -3968,60 +3951,10 @@ txt =`┌──⭓ *Information*
 │
 └───────⭓
 
-┌──⭓ *Cecan Menu*
-│
-│➥⭔ ${prefix}jeni
-│➥⭔ ${prefix}jiso
-│➥⭔ ${prefix}cecan2
-│➥⭔ ${prefix}cogan2
-│➥⭔ ${prefix}ryujin
-│➥⭔ ${prefix}rose
-│➥⭔ ${prefix}justina
-│➥⭔ ${prefix}cogan
-│➥⭔ ${prefix}cecan
-│➥⭔ ${prefix}indonesia
-│➥⭔ ${prefix}vietnam
-│➥⭔ ${prefix}thailand
-│➥⭔ ${prefix}korea
-│➥⭔ ${prefix}china
-│➥⭔ ${prefix}japan
-│➥⭔ ${prefix}malaysia
-│
-└───────⭓
-
-┌──⭓ *Asupan Menu*
-│
-│➥⭔ ${prefix}bocil
-│➥⭔ ${prefix}santuy
-│➥⭔ ${prefix}ukhty
-│➥⭔ ${prefix}geayubi
-│➥⭔ ${prefix}lolivid
-│➥⭔ ${prefix}asupan2k
-│➥⭔ ${prefix}asupanrikagusriani
-│
-└───────⭓
-
-┌──⭓ *Hewan Menu*
-│
-│➥⭔ ${prefix}cat
-│➥⭔ ${prefix}dog
-│➥⭔ ${prefix}goose
-│➥⭔ ${prefix}fox
-│➥⭔ ${prefix}panda
-│➥⭔ ${prefix}panda2
-│➥⭔ ${prefix}bird
-│➥⭔ ${prefix}koala
-│➥⭔ ${prefix}whale
-│➥⭔ ${prefix}raccon
-│➥⭔ ${prefix}kanguru
-│
-└───────⭓
-
 ┌──⭓ *Move Story*
 │
 │➥⭔ ${prefix}cerpen
 │➥⭔ ${prefix}ceritahoror
-│➥⭔ ${prefix}cersex
 │
 └───────⭓
 
@@ -4036,55 +3969,6 @@ txt =`┌──⭓ *Information*
 │➥⭔ ${prefix}nickepep
 │➥⭔ ${prefix}katacinta
 │➥⭔ ${prefix}quotesanime
-│
-└───────⭓
-
-┌──⭓ *Nsfw Menu*
-│
-│➥⭔ ${prefix}ass
-│➥⭔ ${prefix}bdsm
-│➥⭔ ${prefix}cuckold
-│➥⭔ ${prefix}cum
-│➥⭔ ${prefix}ero
-│➥⭔ ${prefix}femdom
-│➥⭔ ${prefix}foot
-│➥⭔ ${prefix}gangbanh
-│➥⭔ ${prefix}glasess
-│➥⭔ ${prefix}hentai
-│➥⭔ ${prefix}gifs
-│➥⭔ ${prefix}jahy
-│➥⭔ ${prefix}manga
-│➥⭔ ${prefix}mstb
-│➥⭔ ${prefix}neko
-│➥⭔ ${prefix}loli
-│➥⭔ ${prefix}neko
-│➥⭔ ${prefix}orgy
-│➥⭔ ${prefix}panties
-│➥⭔ ${prefix}pussy
-│➥⭔ ${prefix}neko2
-│➥⭔ ${prefix}tentacles
-│➥⭔ ${prefix}things
-│➥⭔ ${prefix}yuri
-│➥⭔ ${prefix}zettai
-│➥⭔ ${prefix}waifu
-│➥⭔ ${prefix}chiisaihentai
-│➥⭔ ${prefix}trap
-│➥⭔ ${prefix}blowjob
-│➥⭔ ${prefix}yaoi
-│➥⭔ ${prefix}milf
-│➥⭔ ${prefix}ecchi
-│➥⭔ ${prefix}hentai
-│➥⭔ ${prefix}ahegao
-│➥⭔ ${prefix}hololewd
-│➥⭔ ${prefix}sideoppai
-│➥⭔ ${prefix}animefeets
-│➥⭔ ${prefix}animebooty
-│➥⭔ ${prefix}animethighss
-│➥⭔ ${prefix}animearmpits
-│➥⭔ ${prefix}hentaifemdom
-│➥⭔ ${prefix}lewdanimegirls
-│➥⭔ ${prefix}biganimetiddies
-│➥⭔ ${prefix}hentai4everyone
 │
 └───────⭓
 
@@ -4107,326 +3991,6 @@ txt =`┌──⭓ *Information*
 │➥⭔ ${prefix}badboy
 │➥⭔ ${prefix}badgirl
 │➥⭔ ${prefix}pacarserti
-│
-└───────⭓
-
-┌──⭓ *Text Pro Menu*
-│
-│➥⭔ ${prefix}3dchristmas
-│➥⭔ ${prefix}3ddeepsea
-│➥⭔ ${prefix}americanflag
-│➥⭔ ${prefix}3dscifi
-│➥⭔ ${prefix}3drainbow
-│➥⭔ ${prefix}3dwaterpipe
-│➥⭔ ${prefix}halloweenskeleton
-│➥⭔ ${prefix}sketch
-│➥⭔ ${prefix}bluecircuit
-│➥⭔ ${prefix}space
-│➥⭔ ${prefix}metallic
-│➥⭔ ${prefix}fiction
-│➥⭔ ${prefix}greenhorror
-│➥⭔ ${prefix}transformer
-│➥⭔ ${prefix}berry
-│➥⭔ ${prefix}thunder
-│➥⭔ ${prefix}magma
-│➥⭔ ${prefix}3dcrackedstone
-│➥⭔ ${prefix}3dneonlight
-│➥⭔ ${prefix}impressiveglitch
-│➥⭔ ${prefix}naturalleaves
-│➥⭔ ${prefix}fireworksparkle
-│➥⭔ ${prefix}matrix
-│➥⭔ ${prefix}dropwater
-│➥⭔ ${prefix}harrypotter
-│➥⭔ ${prefix}foggywindow
-│➥⭔ ${prefix}neondevils
-│➥⭔ ${prefix}christmasholiday
-│➥⭔ ${prefix}3dgradient
-│➥⭔ ${prefix}blackpink
-│➥⭔ ${prefix}gluetext
-│➥⭔ ${prefix}3d-effect 
-│➥⭔ ${prefix}3d-rubystone 
-│➥⭔ ${prefix}3d-text-sub-zombie 
-│➥⭔ ${prefix}3dengraved 
-│➥⭔ ${prefix}3dgold 
-│➥⭔ ${prefix}3dgolden 
-│➥⭔ ${prefix}3dgradient 
-│➥⭔ ${prefix}3dgradient 
-│➥⭔ ${prefix}3dlove 
-│➥⭔ ${prefix}3dluxury 
-│➥⭔ ${prefix}3dneonlight 
-│➥⭔ ${prefix}3dpapercut 
-│➥⭔ ${prefix}3drainbow 
-│➥⭔ ${prefix}3drealistic 
-│➥⭔ ${prefix}3drosegold 
-│➥⭔ ${prefix}3dscifi 
-│➥⭔ ${prefix}3dsilver 
-│➥⭔ ${prefix}3dspace 
-│➥⭔ ${prefix}3dstone 
-│➥⭔ ${prefix}3dtext-effect 
-│➥⭔ ${prefix}3dunderwater 
-│➥⭔ ${prefix}3dvintage 
-│➥⭔ ${prefix}3dwaterpipe 
-│➥⭔ ${prefix}alice-league-of-kings 
-│➥⭔ ${prefix}angel-wing-galaxy 
-│➥⭔ ${prefix}anubis 
-│➥⭔ ${prefix}arch-crossfire 
-│➥⭔ ${prefix}art-shader 
-│➥⭔ ${prefix}assassins-creed 
-│➥⭔ ${prefix}avengers 
-│➥⭔ ${prefix}azzenka-league-of-kings 
-│➥⭔ ${prefix}balloons-cards 
-│➥⭔ ${prefix}balloons-love 
-│➥⭔ ${prefix}bearlogo 
-│➥⭔ ${prefix}bg-crossfire 
-│➥⭔ ${prefix}birthday-cake 
-│➥⭔ ${prefix}birthday-cards 
-│➥⭔ ${prefix}birthday-greeting 
-│➥⭔ ${prefix}birthday-roses 
-│➥⭔ ${prefix}black-metal 
-│➥⭔ ${prefix}blood-frosted 
-│➥⭔ ${prefix}blood-text 
-│➥⭔ ${prefix}blue-effect 
-│➥⭔ ${prefix}blue-glitter 
-│➥⭔ ${prefix}brickwall 
-│➥⭔ ${prefix}brokentext 
-│➥⭔ ${prefix}bulb-effect 
-│➥⭔ ${prefix}bubble-effect 
-│
-└───────⭓
-
-┌──⭓ *Photo Oxy Menu*
-│
-│➥⭔ ${prefix}shadow
-│➥⭔ ${prefix}romantic
-│➥⭔ ${prefix}smoke
-│➥⭔ ${prefix}burnpapper
-│➥⭔ ${prefix}naruto
-│➥⭔ ${prefix}lovemsg
-│➥⭔ ${prefix}grassmsg
-│➥⭔ ${prefix}lovetext
-│➥⭔ ${prefix}coffecup
-│➥⭔ ${prefix}butterfly
-│➥⭔ ${prefix}harrypotter
-│➥⭔ ${prefix}retrolol
-│➥⭔ ${prefix}shadow 
-│➥⭔ ${prefix}cup 
-│➥⭔ ${prefix}cup1 
-│➥⭔ ${prefix}burnpaper 
-│➥⭔ ${prefix}lovemessage 
-│➥⭔ ${prefix}undergrass 
-│➥⭔ ${prefix}woodheart
-│➥⭔ ${prefix}woodenboard 
-│➥⭔ ${prefix}wolfmetal 
-│➥⭔ ${prefix}nature3d 
-│➥⭔ ${prefix}underwater 
-│➥⭔ ${prefix}golderrose 
-│➥⭔ ${prefix}fallleaves 
-│➥⭔ ${prefix}flamming 
-│➥⭔ ${prefix}harrypotter
-│
-└───────⭓
-
-┌──⭓ *Photo Maker*
-│
-│➥⭔ ${prefix}1917 
-│➥⭔ ${prefix}3d-crack-text-effect-online 
-│➥⭔ ${prefix}3d-underwater 
-│➥⭔ ${prefix}3d-wood 
-│➥⭔ ${prefix}3d-wood2
-│➥⭔ ${prefix}3damerican-flag
-│➥⭔ ${prefix}3dgalaxy-metal 
-│➥⭔ ${prefix}3dgold
-│➥⭔ ${prefix}3dgradient
-│➥⭔ ${prefix}3dgradient2
-│➥⭔ ${prefix}3dmetal-effect
-│➥⭔ ${prefix}3dmetal-text-
-│➥⭔ ${prefix}3dmulticolor-papercut
-│➥⭔ ${prefix}3dpig-gif
-│➥⭔ ${prefix}3drose-gold
-│➥⭔ ${prefix}3druby-stone
-│➥⭔ ${prefix}3dsand-engraved
-│➥⭔ ${prefix}3dshiny-metallic
-│➥⭔ ${prefix}3dsilver
-│➥⭔ ${prefix}3dspace
-│➥⭔ ${prefix}3dsparkle-christmas
-│➥⭔ ${prefix}3dstone
-│➥⭔ ${prefix}3dsub-zombie
-│➥⭔ ${prefix}3dtext-effect
-│➥⭔ ${prefix}3dtext-effect2
-│➥⭔ ${prefix}3dtext-effect3
-│➥⭔ ${prefix}3dtext-pig
-│➥⭔ ${prefix}3dvalentine-cards
-│➥⭔ ${prefix}3dvintage-light-bulb
-│➥⭔ ${prefix}3dxmas-cards
-│➥⭔ ${prefix}3dxmas-cards2
-│➥⭔ ${prefix}83day-card
-│➥⭔ ${prefix}83day-card2
-│➥⭔ ${prefix}83day-card3
-│➥⭔ ${prefix}83day-card4
-│➥⭔ ${prefix}advanced-glow
-│➥⭔ ${prefix}ahri-league-of-legends
-│➥⭔ ${prefix}alice-league-of-kings
-│➥⭔ ${prefix}amily-arena-of-valor
-│➥⭔ ${prefix}angels-wings
-│➥⭔ ${prefix}anonymous-neon
-│➥⭔ ${prefix}art-shader
-│➥⭔ ${prefix}avengers
-│➥⭔ ${prefix}azzenka-league-of-kings
-│➥⭔ ${prefix}balloon-noel
-│➥⭔ ${prefix}balloon-text
-│➥⭔ ${prefix}balloons-cards
-│➥⭔ ${prefix}balloons-love
-│➥⭔ ${prefix}bats-halloween
-│
-└───────⭓
-
-┌──⭓ *Ephoto Menu*
-│
-│➥⭔ ${prefix}ffcover
-│➥⭔ ${prefix}crossfire
-│➥⭔ ${prefix}galaxy
-│➥⭔ ${prefix}glass
-│➥⭔ ${prefix}neon
-│➥⭔ ${prefix}beach
-│➥⭔ ${prefix}blackpink
-│➥⭔ ${prefix}igcertificate
-│➥⭔ ${prefix}ytcertificate
-│➥⭔ ${prefix}wetglass 
-│➥⭔ ${prefix}multicolor3d 
-│➥⭔ ${prefix}watercolor 
-│➥⭔ ${prefix}luxurygold 
-│➥⭔ ${prefix}galaxywallpaper 
-│➥⭔ ${prefix}lighttext 
-│➥⭔ ${prefix}beautifulflower 
-│➥⭔ ${prefix}royaltext 
-│➥⭔ ${prefix}heartshaped 
-│➥⭔ ${prefix}birdhdaycake 
-│➥⭔ ${prefix}galaxystyle 
-│➥⭔ ${prefix}hologram3d 
-│➥⭔ ${prefix}greenneon 
-│➥⭔ ${prefix}glossychrome 
-│➥⭔ ${prefix}greenbush 
-│➥⭔ ${prefix}metallogo 
-│➥⭔ ${prefix}neoltext 
-│➥⭔ ${prefix}glittergold 
-│➥⭔ ${prefix}textcake 
-│➥⭔ ${prefix}startsnight 
-│➥⭔ ${prefix}wooden3d 
-│➥⭔ ${prefix}textbyname 
-│➥⭔ ${prefix}writegalacy 
-│➥⭔ ${prefix}galaxybat 
-│➥⭔ ${prefix}snow3d 
-│➥⭔ ${prefix}birthdayday 
-│➥⭔ ${prefix}silverplaybutton 
-│➥⭔ ${prefix}cartoongravity 
-│➥⭔ ${prefix}anonymhacker 
-│➥⭔ ${prefix}mlwall 
-│➥⭔ ${prefix}pubgmaskot 
-│➥⭔ ${prefix}aovwall 
-│➥⭔ ${prefix}logogaming 
-│➥⭔ ${prefix}fpslogo 
-│➥⭔ ${prefix}avatarlolnew 
-│➥⭔ ${prefix}lolbanner 
-│➥⭔ ${prefix}avatardota 
-│➥⭔ ${prefix}juventusshirt 
-│➥⭔ ${prefix}cutegravity 
-│➥⭔ ${prefix}realvintage 
-│➥⭔ ${prefix}codwarzone 
-│➥⭔ ${prefix}valorantbanner
-│
-└───────⭓
-
-┌──⭓ *Foto Funia*
-│
-│➥⭔ ${prefix}airline
-│➥⭔ ${prefix}ballon
-│➥⭔ ${prefix}beach-sign
-│➥⭔ ${prefix}blood_writing
-│➥⭔ ${prefix}bracelet
-│➥⭔ ${prefix}cemetery-gates
-│➥⭔ ${prefix}chalk_writing
-│➥⭔ ${prefix}christmas-writing
-│➥⭔ ${prefix}cookies_writing
-│➥⭔ ${prefix}denim-emdroidery
-│➥⭔ ${prefix}einstein
-│➥⭔ ${prefix}foggy_window_writing
-│➥⭔ ${prefix}fortune-cookie
-│➥⭔ ${prefix}frosty-window-writing
-│➥⭔ ${prefix}haunted-hotel
-│➥⭔ ${prefix}heart_tattoo
-│➥⭔ ${prefix}light-graffiti
-│➥⭔ ${prefix}lipstick-writing
-│➥⭔ ${prefix}nightmare-writing
-│➥⭔ ${prefix}noir
-│➥⭔ ${prefix}pendant
-│➥⭔ ${prefix}plane-banner
-│➥⭔ ${prefix}sand_writing
-│➥⭔ ${prefix}snow-sign
-│➥⭔ ${prefix}soup_letters
-│➥⭔ ${prefix}street-sign
-│➥⭔ ${prefix}typewriter
-│➥⭔ ${prefix}water-writing
-│➥⭔ ${prefix}wooden_sign
-│➥⭔ ${prefix}yacht
-│
-└───────⭓
-
-┌──⭓ *Maker Menu*
-│
-│➥⭔ ${prefix}guramaker
-│➥⭔ ${prefix}kanekimaker
-│➥⭔ ${prefix}lolimaker
-│➥⭔ ${prefix}waifumaker
-│➥⭔ ${prefix}sadboymaker
-│➥⭔ ${prefix}remmaker
-│➥⭔ ${prefix}silverbutton
-│➥⭔ ${prefix}goldbutton
-│
-└───────⭓
-
-┌──⭓ *Sticker Efek*
-│
-│➥⭔ ${prefix}wasted
-│➥⭔ ${prefix}fisheye
-│➥⭔ ${prefix}pixelate
-│➥⭔ ${prefix}invert
-│➥⭔ ${prefix}roundimage
-│➥⭔ ${prefix}1977 
-│➥⭔ ${prefix}aden
-│➥⭔ ${prefix}clarendon
-│➥⭔ ${prefix}gingham
-│➥⭔ ${prefix}hudson 
-│➥⭔ ${prefix}inkwell 
-│➥⭔ ${prefix}earlybird 
-│➥⭔ ${prefix}kelvin 
-│➥⭔ ${prefix}lark
-│➥⭔ ${prefix}lofi 
-│➥⭔ ${prefix}maven 
-│➥⭔ ${prefix}mayfair 
-│➥⭔ ${prefix}moon 
-│➥⭔ ${prefix}nashville 
-│➥⭔ ${prefix}perpetua 
-│➥⭔ ${prefix}reyes 
-│➥⭔ ${prefix}rise 
-│➥⭔ ${prefix}slumber 
-│➥⭔ ${prefix}stinson 
-│➥⭔ ${prefix}toaster 
-│➥⭔ ${prefix}valencia 
-│➥⭔ ${prefix}walden 
-│➥⭔ ${prefix}willow 
-│➥⭔ ${prefix}xpro2 
-│➥⭔ ${prefix}jail
-│➥⭔ ${prefix}rainbow
-│➥⭔ ${prefix}rip
-│➥⭔ ${prefix}sepia
-│➥⭔ ${prefix}wanted
-│➥⭔ ${prefix}joke
-│➥⭔ ${prefix}hitler
-│➥⭔ ${prefix}trash
-│➥⭔ ${prefix}greyscale
-│➥⭔ ${prefix}cicle
-│➥⭔ ${prefix}spongebob
-│➥⭔ ${prefix}patrick
 │
 └───────⭓
 
@@ -4463,42 +4027,6 @@ txt =`┌──⭓ *Information*
 │➥⭔ ${prefix}virus9
 │➥⭔ ${prefix}virus10
 │➥⭔ ${prefix}bughole
-│
-└───────⭓
-
-┌──⭓ *Primbon Menu*
-│
-│➥⭔ ${prefix}nomorhoki
-│➥⭔ ${prefix}artimimpi
-│➥⭔ ${prefix}artinama
-│➥⭔ ${prefix}ramaljodoh
-│➥⭔ ${prefix}ramaljodohbali
-│➥⭔ ${prefix}suamiistri
-│➥⭔ ${prefix}ramalcinta
-│➥⭔ ${prefix}cocoknama
-│➥⭔ ${prefix}pasangan
-│➥⭔ ${prefix}jadiannikah
-│➥⭔ ${prefix}sifatusaha
-│➥⭔ ${prefix}rezeki
-│➥⭔ ${prefix}pekerjaan
-│➥⭔ ${prefix}nasib
-│➥⭔ ${prefix}penyakit
-│➥⭔ ${prefix}tarot
-│➥⭔ ${prefix}fengshui
-│➥⭔ ${prefix}haribaik
-│➥⭔ ${prefix}harisangar
-│➥⭔ ${prefix}harisial
-│➥⭔ ${prefix}nagahari
-│➥⭔ ${prefix}arahrezeki
-│➥⭔ ${prefix}peruntungan
-│➥⭔ ${prefix}weton
-│➥⭔ ${prefix}karakter
-│➥⭔ ${prefix}keberuntungan
-│➥⭔ ${prefix}memancing
-│➥⭔ ${prefix}masasubur
-│➥⭔ ${prefix}zodiak
-│➥⭔ ${prefix}artizodiak
-│➥⭔ ${prefix}shio
 │
 └───────⭓
 
@@ -4642,7 +4170,7 @@ txt =`┌──⭓ *Information*
 │➥⭔ ${prefix}bcallmedia
 │➥⭔ ${prefix}setppbot [image]
 │
-└───[BOT-XeonOFC]
+└───[BOT-Ikalzo]
 
 
 ┌──⭓ *THANKS TO*
@@ -4657,6 +4185,7 @@ txt =`┌──⭓ *Information*
 │⬡  ZeeoneOfc.
 │⬡  OnMyDz
 │⬡  FERDIZ-afk
+│⬡  Haikal
 │⬡  All My Friends.
 │
 └───────⭓`
@@ -4668,13 +4197,13 @@ imageMessage: message.imageMessage,
 hydratedContentText: txt,
 hydratedButtons: [{
 urlButton: {
-displayText: 'Forum Group Whatsapp',
-url: 'https://chat.whatsapp.com/F9MPedE7AzPIl8ZWuDw3nF'
+displayText: 'Group Whatsapp',
+url: 'https://chat.whatsapp.com/CjY36j61CdP8VJzhFfqEO5'
 }
 }, {
 urlButton: {
 displayText: 'Youtube',
-url: 'https://youtube.com/channel/UCkq29eVGgDbHPGyhEmSJs2A'
+url: 'https://youtube.com/channel/UCfkaZeCkZDmEY_JHDAA2l_Q'
 }
 }, {
 quickReplyButton: {
@@ -4688,7 +4217,7 @@ id: 'owner'
 }  
 }, {
 quickReplyButton: {
-displayText: '𝑺𝒄𝒓𝒊𝒑𝒕',
+displayText: 'Script Bot',
 id: 'sc'
 }
 }]
